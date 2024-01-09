@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "University-Managment-App",
+    "name": "University Managment",
     "slug": "University-Managment-App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/dummy-logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/dummy-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/dummy-logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.revinianz13.UniversityManagmentApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/dummy-logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "43c00cba-14d2-4c2a-897b-86e3292e605c"
+      }
     }
   }
 }

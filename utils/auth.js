@@ -6,14 +6,14 @@ import { getStorage } from "firebase/storage"; // Import getStorage from firebas
 import ReactNativeAsyncStorage from '@react-native-async-storage/async-storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA3f1mPPZ04UcxnqooBiNG0-miWeMyR1Y8",
-  authDomain: "managment-university.firebaseapp.com",
-  databaseURL: "https://managment-university-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "managment-university",
-  storageBucket: "managment-university.appspot.com",
-  messagingSenderId: "325275829593",
-  appId: "1:325275829593:web:ec732f1335e9172c04b848",
-  measurementId: "G-6L7Y7HJBFD"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 export const F_APP = initializeApp(firebaseConfig);
